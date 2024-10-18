@@ -20,13 +20,10 @@
 
 - **Node.js και npm:** Μπορεί να χρειαστούν για μελλοντικές επεκτάσεις ή υποστήριξη plugins.
     ```bash
-    sudo pacman -S nodejs npm
-    ```
+    sudo pacman -S nodejs npm 
 
-- **Python3 και pip:** Για υποστήριξη Python-based plugins, όπως το `pynvim`.
-    ```bash
-    sudo pacman -S python python-pip
-    pip install pynvim
+    pnpm setup
+    npm install -g live-server
     ```
 
 ### Για macOS
@@ -45,13 +42,10 @@
 
 - **Node.js και npm:** Μπορεί να χρειαστούν για μελλοντική χρήση με plugins.
     ```bash
-    brew install node
-    ```
+    brew install node luarocks pnpm
 
-- **Python3 και pip:** Για υποστήριξη plugins που απαιτούν Python.
-    ```bash
-    brew install python
-    pip3 install pynvim
+    pnpm setup
+    npm install -g live-server
     ```
 
 ## Εγκατάσταση LazyVim
