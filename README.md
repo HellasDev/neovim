@@ -22,7 +22,7 @@
 
 - **Node.js και npm:** Μπορεί να χρειαστούν για μελλοντικές επεκτάσεις ή υποστήριξη plugins.
     ```bash
-    sudo pacman -S nodejs npm 
+    sudo pacman -S nodejs npm luarocks pnpm
 
     pnpm setup
     npm install -g live-server
